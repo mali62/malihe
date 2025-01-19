@@ -1,27 +1,27 @@
-*~
-~*
-*.diff
-*.patch
-*.bak
-.DS_Store
-*.swp
-*.swo
-*.log
-*.log.*
-
-/.vscode/
-
-node_modules/
-.sass-cache/
-
-/.bundle/
-/vendor/bundle
-*.gem
-
-yarn.lock
-package-lock.json
+# Jekyll and Ruby specific.
+.sass-cache
+_site/*
 Gemfile.lock
+Gemfile
 
-_site/
-.jekyll-metadata
-.jekyll-cache/
+# Bundler related.
+.bundle
+vendor/bundle/
+
+# Other.
+*.orig
+*.core
+*.rej
+*~
+*.swp
+*.log
+*.tmp
+*.bak
+.*\#.*\#$
+
+# OS garbage.
+Thumbs.db
+.DS_Store
+
+# IntelliJ IDEA
+.idea/*
